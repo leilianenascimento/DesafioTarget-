@@ -1,0 +1,24 @@
+QUESTÃO 2
+
+import java.util.Scanner;
+public class Questao 2 {
+    public static void main(String[] args) {
+        int anterior=0, proximo=1,soma=0, resultado;
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Informe o número para verificar se ele pertence a sequência Fibonacci");
+        resultado= teclado.nextInt();
+        while (resultado>soma){
+            soma=anterior+proximo;
+            anterior=proximo;
+            proximo =soma;
+        }
+        if(resultado==0){
+            System.out.println("Correto, é um numero Fibonacci. O proximo numero é: " + proximo);}
+        else if (resultado==soma) {
+            System.out.println("Correto, o numero pertence a sequecia de fibonacci. O proximo numero é: " +(soma+anterior));
+        }else {
+            System.out.println("Tente novamente. Esse numero não pertence a sequencia de fibonacci");
+
+        }
+    }
