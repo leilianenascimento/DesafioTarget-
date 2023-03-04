@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+ 5) Escreva um programa que inverta os caracteres de um string.     IMPORTANTE:   a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;   b) Evite usar funções prontas, como, por exemplo, reverse;     NÃO SE ESQUEÇA DE INSERIR O LINK DO SEU REPOSITÓRIO NO GITHUB COM O CÓDIGO FONTE QUE VOCÊ DESENVOLVEU .
+
+
 public class Questao 5 {
     public static void main(String[] args) {
         System.out.println("Informe uma palavra, para que ela seja invertida");
